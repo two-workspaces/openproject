@@ -6,7 +6,7 @@
 
 ## About Hosting OpenProject
 
-This template runs OpenProject 17.9.2 from the official slim image, split the way upstream's production setup splits it:
+This template runs OpenProject 17.9.3 from the official slim image, split the way upstream's production setup splits it:
 
 | Service | What it does |
 |---|---|
@@ -19,7 +19,7 @@ What's set up for you:
 
 - **A real admin password.** Other OpenProject templates leave the default `admin` / `admin` login, so anyone who finds the URL first can take over. Here the `admin` account gets a generated password, and you aren't forced to change it on first sign-in.
 - **A real secret key.** `SECRET_KEY_BASE` is generated. A common mistake is setting `OPENPROJECT_SECRET_KEY_BASE`, which OpenProject ignores, so it falls back to a placeholder.
-- **Pinned version.** Both services run `openproject/openproject:17.9.2-slim`, so a redeploy never upgrades you by surprise.
+- **Pinned version.** Both services run `openproject/openproject:17.9.3-slim`, so a redeploy never upgrades you by surprise.
 - **No SMTP needed to start.** You can sign in, create projects and add users without email set up.
 
 ## Common Use Cases

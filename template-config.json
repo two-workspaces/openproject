@@ -15,7 +15,7 @@
     "restartPolicyMaxRetries": 10
    },
    "source": {
-    "image": "openproject/openproject:17.9.2-slim"
+    "image": "openproject/openproject:17.9.3-slim"
    },
    "networking": {
     "serviceDomains": {
@@ -136,7 +136,7 @@
     "restartPolicyMaxRetries": 10
    },
    "source": {
-    "image": "openproject/openproject:17.9.2-slim"
+    "image": "openproject/openproject:17.9.3-slim"
    },
    "networking": {
     "serviceDomains": {}
